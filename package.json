@@ -3,6 +3,9 @@
   "publisher": "caiommoreno",
   "displayName": "Change Directory Extension",
   "description": "Simple way to change the current open directory in VSCode",
+  "repository": {
+    "url": "https://github.com/caioMendesCM/changeDirectoryExtension"
+  },
   "version": "1.0.0",
   "icon": "images/icon.png",
   "engines": {
