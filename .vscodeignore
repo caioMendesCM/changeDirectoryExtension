@@ -1,6 +1,9 @@
 .vscode/**
 .vscode-test/**
 test/**
+gifs
+gifs/*
+
 .gitignore
 .yarnrc
 vsc-extension-quickstart.md
