@@ -5,6 +5,8 @@ You can do this by using the command *Change Directory* (or *cd* for quick acces
 
 When you have selected the folder you want, simply choose the "." option from the list, and your VSCode will reload in that folder. Unfortunately, it is not possible to change the folder without reloading VSCode.
 
-\!\[Navigation\]\(gifs/gif1.gif\)
+![Navigation](https://github.com/caioMendesCM/changeDirectoryExtension/blob/main/gifs/gif1.gif)
+
+
 
 **Enjoy!**
