@@ -1,0 +1,43 @@
+{
+  "name": "changedirectoryextension",
+  "publisher": "caiommoreno",
+  "displayName": "Change Directory Extension",
+  "description": "Simple way to change the current open directory in VSCode",
+  "version": "1.0.0",
+  "icon": "images/icon.png",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "changedirectoryextension.chandeDirectory",
+        "title": "Change directory",
+        "shortTitle": "cd"
+      }
+    ],
+    "keybindings": {
+      "command": "changedirectoryextension.chandeDirectory",
+      "key": "alt+d",
+      "mac": "alt+d"
+    }
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.95.0",
+    "@types/mocha": "^10.0.9",
+    "@types/node": "20.x",
+    "eslint": "^9.13.0",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1"
+  }
+}
