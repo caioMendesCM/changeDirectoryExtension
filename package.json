@@ -6,7 +6,7 @@
   "repository": {
     "url": "https://github.com/caioMendesCM/changeDirectoryExtension"
   },
-  "version": "1.0.1",
+  "version": "1.0.0",
   "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.95.0"
